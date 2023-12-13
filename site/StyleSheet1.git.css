@@ -1,0 +1,528 @@
+﻿#back {
+    position: fixed;
+    min-width: 80%;
+    min-height: 100%;
+    padding: 25px;
+    left: 50%;
+    right: 50%;
+    margin-right: -40%;
+    margin-left: -40%;
+    overflow: auto;
+    background-color: white;
+}
+#p {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #DCDCDC
+}
+
+#psa {
+    top: 0px;
+    left: unset;
+    position: fixed;
+    min-width: 80%;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    left: 10%;
+    border-bottom: 4px solid #463571;
+}
+
+
+#cir {
+    position: fixed;
+    margin-left: -55px;
+    margin-right: -55px;
+    width: 110px;
+    height: 110px;
+    left: 50%;
+    right: 50%;
+    top: 40px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 4px;
+    stroke: #463571;
+}
+
+#circ {
+    top: 26px;
+    position: fixed;
+    width: 120px;
+    height: 65px;
+    left: 50%;
+    right: 50%;
+    margin-left: -60px;
+    margin-right: -60px;
+    background-color: white;
+}
+#pic {
+    position: fixed;
+    width: 140px;
+    height: 140px; /*140*/
+    flex-shrink: 0;
+    background: url('https://i.ibb.co/1J5HSSf/12121212121221.png');
+    background-repeat: no-repeat;
+    background-size: 140px;
+    margin-left: -70px;
+    margin-right: -70px;
+    left: 50%;
+    right: 50%;
+    top: 25px;
+}
+#c1 {
+    position: absolute;
+    top: 21px;
+    left: 36px;
+    width: 152px;
+    height: 52px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #A5984C;
+    background-color: #f7f7f7;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#c2 {
+    position: absolute;
+    top: 21px;
+    left: 188px;
+    width: 152px;
+    height: 52px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #A5984C;
+    background-color: #f7f7f7;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#c3 {
+    position: absolute;
+    top: 21px;
+    left: 340px;
+    width: 152px;
+    height: 52px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #A5984C;
+    background-color: #f7f7f7;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    font-family: Bhavuka;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.98px;
+    text-decoration: none;
+    color: #000f;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.button:hover {
+    border-radius: 1px;
+    border-right: 2px solid #FEFBEA;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button1 {
+    font-family: Bhavuka;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.98px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+}
+
+    .button1:hover {
+        border-radius: 1px;
+        border-right: 2px solid #FEFBEA;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+#log {
+    position: absolute;
+    width: 152px;
+    height: 52px;
+    right: 121px;
+    top: 17px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 2px solid #FEFBEA;
+    border-color: #A5984C;
+}
+#set {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    right: 43px;
+    top: 24px;
+    border-radius: 43px;
+    border: 2px solid;
+    background: url('https://i.ibb.co/7ymZkS6/image.png');
+    background-repeat: no-repeat;
+    background-size: 43px;
+}
+#q {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 205px;
+    flex-shrink: 0;
+    top: 92px;
+    background: #FEFBEA;
+}
+
+#name {
+    position: absolute;
+    top: 89px;
+    width: 331px; /*242*/
+    height: 53px;
+    flex-shrink: 0;
+    border: 1px solid #463571;
+    background: #FEFBEA;
+    margin-left: -165px;
+    margin-right: -165px;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-family: Bhavuka;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.98px;
+    text-decoration: none;
+    color: #000f;
+}
+#aa {
+    position: absolute;
+    right: 5%;
+    width: 24%;
+    height: 205px;
+    flex-shrink: 0;
+    border-radius: 71.5px;
+    background: url('https://i.ibb.co/xGKZ587/bludo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:500px) {
+    #aa {
+        display: none;
+    }
+}
+
+#pso {
+    position: absolute;
+    top: 297px;
+    height: 177px;
+    width: 100%;
+    left: 0;
+    background-color: aquamarine;
+    border-top: 2px solid #A5984C;
+    border-bottom: 2px solid #A5984C;
+    background: #FFF;
+    z-index: 30;
+}
+
+#best_rep {
+    position: absolute;
+    text-decoration: none;
+    width: 152px;
+    height: 52px;
+    left: 32px;
+    bottom: 29px;
+    border-radius: 9px;
+    border: 2px solid #FEFBEA;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    color: black;
+}
+
+#top_rep {
+    position: absolute;
+    left: 32px;
+    text-decoration: none;
+    width: 152px;
+    height: 52px;
+    top: 29px;
+    border-radius: 9px;
+    border: 2px solid #FEFBEA;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    color: black;
+}
+
+
+#toprep3 {
+    position: absolute;
+    width: 274px;
+    height: 171px;
+    flex-shrink: 0;
+    border: 1px solid #463571;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    right: 530px;
+    background: url('https://i.ibb.co/h9gnPDZ/image.png');
+    background-size: cover;
+}
+
+#toprep2 {
+    position: absolute;
+    width: 274px;
+    height: 171px;
+    flex-shrink: 0;
+    border: 1px solid #463571;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    right: 0px;
+    background: url('https://i.ibb.co/pjQZPSG/image.png');
+    background-size: cover;
+}
+
+#toprep1 {
+    position: absolute;
+    width: 315px;
+    height: 189px;
+    flex-shrink: 0;
+    border: 1px solid #463571;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    top: -6px;
+    right: 246px;
+    background: url('https://i.ibb.co/P4Dpmfw/image.png');
+    background-size: cover;
+}
+
+
+
+/* ==================ПОИСК=======================*/
+
+/** {
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    top: 470px;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+    button:before {
+        content: "\f002";
+        font-family: FontAwesome;
+        font-size: 16px;
+        color: #F9F0DA;
+    }*/
+.ty {
+    position: absolute;
+    fill: rgba(217, 217, 217, 0.00);
+    stroke-width: 2px;
+    stroke: #463571;
+    top: 500px;
+    width: 42px;
+    height: 37px;
+    left: 48px;
+}
+
+.tu {
+    position:absolute;
+    width: 64px;
+    height: 42px;
+    fill: #A5984C;
+    stroke-width: 2px;
+    stroke: #463571;
+    top: 499px;
+    left: 178px;
+}
+.ti {
+    position: absolute;
+    top: 498px;
+    width: 64px;
+    height: 42px;
+    fill: #FEFBEA;
+    stroke-width: 2px;
+    stroke: #463571;
+    left: 348px;
+}
+#yq {
+    position: absolute;
+    left: 100px;
+    top: 507px;
+}
+#uq {
+    position: absolute;
+    top: 507px;
+    left: 238px;
+}
+#iq {
+    position: absolute;
+    top: 507px;
+    left: 408px;
+}
+
+
+
+.repect {
+    position: absolute;
+    width: 376px;
+    height: 240px;
+    flex-shrink: 0;
+    border-top: 2px solid #463571;
+    border-bottom: 2px solid #463571;
+    background: #FEFBEA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+#recept1 {
+    top: 54%;
+    left: 14%;
+}
+
+
+.photo {
+    flex-shrink: 0;
+    border-radius: 50px;
+    left: 5px;
+    width: 35%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid #463571;
+}
+
+#photo1 {
+    background: url('https://i.ibb.co/Tc4ykp1/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0px;*/
+}
+#photo2 {
+    background: url('https://i.ibb.co/M8c0xLW/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0px;*/
+}
+#photo3 {
+    background: url('https://i.ibb.co/W5p1ZFv/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0px;*/
+}
+#photo5 {
+    background: url('https://i.ibb.co/fXW6cHB/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0px;*/
+}
+#photo6 {
+    background: url('https://i.ibb.co/bN9fJVH/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0px;*/
+}
+#photo4 {
+    background: url('https://i.ibb.co/6r8N1s0/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 0px;*/
+}
+
+#recept2 {
+    top: 54%;
+    left: 40%;
+}
+#recept3 {
+    top: 54%;
+    right: 14%;
+}
+#recept4 {
+    top: 80%;
+    right: 14%;
+}
+#recept5 {
+    top: 80%;
+    left: 40%;
+}
+
+#recept6 {
+    top: 80%;
+    left: 14%;
+}
+
+.qw {
+    position: relative;
+    width: 160px;
+    height: 15px;
+    color: #463571;
+    text-align: center;
+    font-family: Bhavuka;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.18%;
+    letter-spacing: 0.11px;
+    left: 50%;
+    top: -100%;
+}
+
+.qwq {
+    left: 50%;
+    top: -80%;
+    position: relative;
+    width: 160px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Bhavuka;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.18%; /* 11.718px */
+    letter-spacing: 0.1px;
+}

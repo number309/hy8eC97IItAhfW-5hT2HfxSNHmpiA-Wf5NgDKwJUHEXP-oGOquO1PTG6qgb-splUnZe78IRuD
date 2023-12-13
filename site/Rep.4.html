@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Домик Кухни - Слот рецепта</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="StyleSheet1.git.css">
+    <style>
+        body {
+            background-color: #DCDCDC
+        }
+        
+        #photorep {
+            position: relative;
+            background-image: url('https://i.ibb.co/vmRYyY6/image.png');
+            top: 150px;
+            left: 30px;
+            width: 350px;
+            height: 350px;
+            background-size: cover;
+            border: 2px solid #FEFBEA;
+            border-color: #463571;
+        }
+
+        @media only screen and (max-width : 1450px) {
+            #photorep {
+                top: 133px;
+                left: -2%;
+            }
+        }
+        
+        
+        #igr {
+            left: 13.5%;
+            top: 60%;
+            position: sticky;
+            font-weight: bold;
+            width: 150px;
+            height: 150px;
+            font-family: Bhavuka;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 117.18%;
+        }
+        #telo {
+            left: 13.5%;
+            top: 63%;
+            position: fixed;
+            width: 310px;
+            height: 190px;
+            font-family: Bhavuka;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 117.18%;
+        }
+        #recp {
+            position: absolute;
+            font-weight: bold;
+            width: 150px;
+            height: 150px;
+            font-family: Bhavuka;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 117.18%;
+            left: 35%;
+            top: 17%;
+        }
+        #recpt {
+            left: 35%;
+            top: 20%;
+            position: absolute;
+            width: 750px;
+            height: 200px;
+            font-family: Bhavuka;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 117.18%;
+        }
+        #yt {
+            position: relative;
+            margin-left: -280px;
+            margin-right: -280px;
+            top: 650px;
+            left: 50%;
+            right: 50%;
+            z-index: 2;
+        }
+        .ytn {
+            left: 40%;
+            top: 770px;
+            font-weight: bold;
+            position: relative;
+            width: 600px;
+            height: 200px;
+            font-family: Bhavuka;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 117.18%;
+        }
+        #block {
+            left: 13%;
+            top: 60%;
+            position: fixed;
+            width: 350px;
+            height: 385px;
+            background-color: #FEFBEA;
+            border: 2px solid #FEFBEA;
+            border-color: #463571;
+        }
+        .lo {
+            position: sticky;
+            left: 13%;
+            width: 330px;
+            height: 100px;
+            background-color: #FEFBEA;
+        }
+        @media only screen and (max-width : 1450px) {
+            #igr {
+                left: 10.7%;
+                position: fixed;
+            }
+
+            #telo {
+                left: 10.7%;
+                position: fixed;
+            }
+
+            #block {
+                left: 10.2%;
+                position: fixed;
+            }
+            #yt {
+                left: 54.5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="p" class="1.1">
+        <div id="back" class="1">
+
+
+            <div id="photorep" class="photorep"> </div>
+
+        </div>
+        <div class="lo"> </div>
+        <div id="block" class="101010"> </div>
+        <div id="igr" class="igr">
+            Ингредиенты:
+        </div>
+        <div id="telo" class="text">
+            1. Тунец — 2 бан. <br />
+            2. Лук репчатый — 200 г <br />
+            3. Сыр голландский — 2 ст. л. <br />
+            4. Сахар (1/3 ч.л.) — по вкусу <br />
+            5. Специи (для рыбы) — по вкусу <br />
+            6. Масло растительное — 1 ст. л. <br />
+            7. Соль — по вкусу <br />
+            8. Тесто <br />
+            9. Мука пшеничная / Мука — 150 г <br />
+            10. Сметана — 150 г <br />
+            11. Кефир — 50 г <br />
+            12. Яйцо куриное (крупные) — 2 шт <br />
+            13. Разрыхлитель теста — 1 ч. л. <br />
+            14. Соль — по вкусу
+        </div>
+        <div id="recp" class="recp"> Рецепт: </div>
+        <div id="recpt" class="text">
+            Приготовить продукты.<br />
+            <br />
+            Лук нарезать мелким кубиком, обжарить на растительном масле с добавлением сахара и специй. Остудить.<br />
+            <br />
+            Тунец (1,5 -2 банки) освободить от жидкости, смешать с жареным луком. Посолить по вкусу.<br />
+            <br />
+            Духовку включить на разогрев. В миске смешать сметану, кефир, яйца, соль, муку и разрыхлитель.<br />
+            <br />
+            Взбить до однородности, тесто - густоты сметаны.<br />
+            <br />
+            Приготовить форму, 1-1,5 л.. Вылить в неё чуть больше половины теста.<br />
+            <br />
+            Посыпать 1 ст. л. тертого сыра. Выложить начинку, добавить ещё немного сыра.<br />
+            <br />
+            Залить оставшимся тестом, разровнять.<br />
+            <br />
+            Выпекать при 180 градусах 40 - 45 минут.<br />
+            <br />
+            Пирог слегка остудить на решётке.<br />
+            <br />
+            Подать к столу.<br />
+            <br />
+            ПРИЯТНОГО АППЕТИТА!!!
+        </div>
+        <div id="psa" class="plate">
+            <!--<a href=" http://localhost:50031/Login.html" id="log" class="button"><p>Логин</p></a>
+
+            <div id="set" class="setting"> </div>-->
+            <div id="cir" class="circus">
+                <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                    <circle cx="55" cy="55" r="52" fill="white" stroke="#463571" stroke-width="4" />
+                </svg>
+                <div id="circ" class="block"> </div>
+                <div id="pic" class="logo"> </div>
+            </div>
+            <a href="http://localhost:63819/HTMLPage1.git.html" id="c1" class="button">Дом</a>
+            <!--<a href="http://localhost:65453/HTMLPage1.git.html" id="c3" class="button">0</a>-->
+            <a href="http://localhost:63819/Обновление.html" id="c2" class="button">Обновления</a>
+        </div>
+    </div>
+    <div class="ytn"></div>
+    <iframe id="yt" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+</body>
+</html>
